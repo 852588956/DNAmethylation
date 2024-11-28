@@ -1,0 +1,3 @@
+#甲基化提取
+bismark_methylation_extractor --comprehensive --report -p --no_overlap --gzip --buffer_size 90G --mbias_only --parallel 30 --output ./ --genome_folder ../ref ../duplicate/Testpaired_pe.deduplicated.nonCG_filtered.bam
+#bismark_methylation_extractor --comprehensive --report -p --ignore 5 --ignore_r2 2 --no_overlap --bedGraph --cytosine_report --gzip --buffer_size 90G --parallel 30 --output ${outP} --genome_folder ${index} ${input}

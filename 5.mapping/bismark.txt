@@ -1,0 +1,1 @@
+bismark -p 20 --hisat2 --genome /mnt/e/linux/jiajihua_test/ref/ -x 200 --temp_dir ../tmp/ -o ../mapping/ -B Testpaired -1 /mnt/e/linux/jiajihua_test/cleandata/SRR11243555_1_val_1.fq.gz -2 /mnt/e/linux/jiajihua_test/cleandata/SRR11243555_2_val_2.fq.gz

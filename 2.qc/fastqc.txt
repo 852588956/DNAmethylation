@@ -1,0 +1,2 @@
+fastqc -t 2 -o ./ ../rawdata/SRR11243555/SRR11243555_1.fastq.gz ../rawdata/SRR11243555/SRR11243555_2.fastq.gz
+fastp -i ../rawdata/SRR11243555/SRR11243555_1.fastq.gz -I ../rawdata/SRR11243555/SRR11243555_2.fastq.gz -o out.R1.fq.gz -O out.R2.fq.gz

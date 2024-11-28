@@ -1,0 +1,2 @@
+#WGBS去重复
+deduplicate_bismark -p --bam ../mapping/Testpaired_pe.bam --output_dir ./

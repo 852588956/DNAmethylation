@@ -1,0 +1,1 @@
+/home/moyunhe/software/TrimGalore-0.6.10/trim_galore --phred33 -j 5 -q 20 --length 36 --stringency 3 --fastqc --paired --max_n 3 -o ./ ../rawdata/SRR11243555/SRR11243555_1.fastq.gz ../rawdata/SRR11243555/SRR11243555_2.fastq.gz

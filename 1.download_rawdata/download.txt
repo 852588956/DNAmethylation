@@ -1,0 +1,14 @@
+#通过SRR号 下载数据
+prefetch --max-size 100G SRR11243555
+
+
+#下载完成后 转化数据
+for f in *.sra
+do
+nohup fastq-dump --split-3 $f &
+done
+#多线程
+fasterq-dump  -p -e 24 --split-3 -O ./ SRR11243555
+
+
+

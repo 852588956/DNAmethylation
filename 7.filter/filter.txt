@@ -1,0 +1,2 @@
+#去除重亚硫酸盐转化失败的reads
+filter_non_conversion -p ../duplicate/Testpaired_pe.deduplicated.bam
